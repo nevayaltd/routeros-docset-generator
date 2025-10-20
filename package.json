@@ -1,0 +1,23 @@
+{
+  "name": "routeros-terraform-docset",
+  "version": "1.0.0",
+  "description": "Dash docset generator for Terraform RouterOS provider",
+  "main": "generate-docset.js",
+  "scripts": {
+    "generate": "node generate-docset.js"
+  },
+  "keywords": [
+    "dash",
+    "docset",
+    "terraform",
+    "routeros",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.0.0",
+    "fs-extra": "^11.2.0",
+    "better-sqlite3": "^11.0.0"
+  }
+}
